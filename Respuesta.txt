@@ -1,0 +1,11 @@
+Para determinar la mejor estrategia para reducir el tiempo promedio de ejecución de los procesos, 
+es crucial analizar los resultados de simulaciones ejecutadas bajo distintas configuraciones y 
+condiciones de carga. La efectividad de aumentar la memoria, incrementar la velocidad del procesador, 
+o añadir más CPUs dependerá del cuello de botella principal del sistema. Si la mayor reducción 
+en el tiempo promedio se observa al incrementar la velocidad del procesador, esto indica que 
+el sistema está limitado por la capacidad de procesamiento. Por otro lado, si añadir más procesadores 
+ofrece la mejora más significativa, sugiere que el sistema se beneficia de la ejecución paralela y puede 
+no estar explotando su capacidad de procesamiento concurrente al máximo. Finalmente, aumentar la memoria es 
+más efectivo cuando la limitación principal es la cantidad de memoria disponible para los procesos. 
+La mejor estrategia será aquella que, según los resultados específicos de la simulación, 
+ofrezca una mejora sustancial en el rendimiento, teniendo en cuenta también factores como la escalabilidad y el costo.
